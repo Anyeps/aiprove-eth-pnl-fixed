@@ -1,0 +1,38 @@
+{
+  "capital": 10000.0,
+  "notional": 10000.0,
+  "taker_fee_bps": 5.0,
+  "slippage_base_bps": 2.0,
+  "slippage_impact_bps": 10.0,
+  "slippage_cap_bps": 12.0,
+  "bars": 1440,
+  "net_pnl": 322.13,
+  "gross_pnl": 351.27,
+  "total_fees": 20.0,
+  "total_slippage_cost": 9.25,
+  "total_costs": 29.25,
+  "net_pnl_pct": 3.22,
+  "max_drawdown_pct": 2.24,
+  "round_trips": 2,
+  "wins": 2,
+  "losses": 0,
+  "win_rate_pct": 100.0,
+  "avg_trade": 161.06,
+  "final_equity": 10322.13,
+  "trades": [
+    {
+      "direction": -1,
+      "entry_px": 2005.55,
+      "exit_px": 1948.71,
+      "exit_bar": 1308,
+      "pnl": 278.44
+    },
+    {
+      "direction": 1,
+      "entry_px": 1948.71,
+      "exit_px": 1960.14,
+      "exit_bar": 1439,
+      "pnl": 53.69
+    }
+  ]
+}
